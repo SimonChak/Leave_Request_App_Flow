@@ -1,14 +1,14 @@
 # Leave Request App & Flow
 The project involves creating an automated workflow to manage employee leave requests. The system leverages Microsoft Power Automate to streamline the process, integrating Microsoft Teams for user interaction, SharePoint for data storage and calculations, and Outlook for email notifications.
 
-# 1. User Interface: Power Apps (Employee Self-Service Portal)
+# 1. User Interface: Power Apps
 **Intuitive Leave Request Submission:** Employees use a custom Power Apps form to submit leave requests. The UI captures key details (e.g., leave type, start/end dates, reason) and validates inputs in real time.
 
 **Role-Based Access:** Managers and employees have tailored views—employees submit requests, while managers access a dashboard to review/approve/reject requests.
 
 **Real-Time Feedback:** The app provides instant confirmation of submission and tracks request status (e.g., “Pending Approval,” “Approved,” “Rejected”).
 
-# 2. Backend Automation: Power Automate (Approval Workflow Engine)
+# 2. Backend Automation: Power Automate
 A multi-step Power Automate flow orchestrates the entire leave approval lifecycle:
 
 **Trigger:** Initiates when a new leave request is submitted via Power Apps (or SharePoint).
