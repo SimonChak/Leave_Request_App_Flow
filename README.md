@@ -1,7 +1,10 @@
-# Leave Request App & Flow
+# 請假申請應用與流程 (Leave Request App & Flow)
+
+本專案旨在建立自動化工作流程以管理員工的請假申請，系統運用Microsoft Power Apps 和 Microsoft Power Automate 來精簡流程，並整合 Microsoft Teams 作為使用者互動介面、SharePoint 作為資料儲存與計算，以及 Outlook 用於電子郵件通知。
 The project involves creating an automated workflow to manage employee leave requests. The system leverages Microsoft Power Automate to streamline the process, integrating Microsoft Teams for user interaction, SharePoint for data storage and calculations, and Outlook for email notifications.
 
-# 1. User Interface: Power Apps
+# 1.使用者介面：Power Apps (User Interface: Power Apps)
+**直接的請假申請：** 員工使用自訂的 Power Apps 表單提交請假申請。關鍵資訊（如假期類別、開始／結束日期、日數、原因、審批人員）。
 **Intuitive Leave Request Submission:** Employees use a custom Power Apps form to submit leave requests. The UI captures key details (e.g., leave type, start/end dates, reason) and validates inputs in real time.
 
 **Role-Based Access:** Managers and employees have tailored views—employees submit requests, while managers access a dashboard to review/approve/reject requests.
